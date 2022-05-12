@@ -1,0 +1,475 @@
+.nav {
+  position: absolute;
+  height: 90px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+}
+
+.conteiner-nav {
+  position: absolute;
+  height: 90px;
+  left: 8.33%;
+  right: 8.33%;
+  top: calc(50% - 90px/2);
+}
+
+.logo {
+  position: absolute;
+  height: 31px;
+  left: 2.67%;
+  right: 86.67%;
+  top: calc(50% - 31px/2 + 0.5px);
+  border-radius: 0px;
+}
+
+.header-nav {
+  position: absolute;
+  height: 50px;
+  left: 35.02%;
+  right: 1.67%;
+  top: calc(50% - 50px/2);
+  font-family: 'Inter', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-nav li + li {
+  margin-left: 60px;
+}
+
+.button {
+  position: absolute;
+  height: 42px;
+  left: 77.85%;
+  right: 0%;
+  top: calc(50% - 42px/2);
+  background: #000000;
+  border-radius: 14px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+
+.block1 {
+  background-color: antiquewhite;
+  position: absolute;
+  height: 716px;
+  left: 0%;
+  right: 0%;
+  top: 90px;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(18.78%, #000000), color-stop(98.53%, rgba(0, 0, 0, 0))), url(.jpg);
+  background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%), url(.jpg);
+}
+
+.conteiner-block1 {
+  position: absolute;
+  height: 209px;
+  left: 29.17%;
+  right: 29.17%;
+  top: 60%;
+}
+
+.zag {
+  position: absolute;
+  width: 263px;
+  height: 20px;
+  left: calc(50% - 263px/2 + 0.5px);
+  top: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+
+.pzag {
+  position: absolute;
+  width: 580px;
+  height: 80px;
+  left: calc(50% - 580px/2);
+  top: 119px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  text-align: center;
+  color: #C0C0C0;
+}
+
+.what {
+  position: absolute;
+  height: 1558px;
+  left: 0%;
+  right: 0%;
+  top: 800px;
+}
+
+.zag2 {
+  position: absolute;
+  width: 248px;
+  height: 42px;
+  left: calc(50% - 248px/2);
+  top: 190px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  /* identical to box height, or 105% */
+  text-align: center;
+  color: #000000;
+}
+
+.pzag2 {
+  position: absolute;
+  width: 413px;
+  height: 30px;
+  left: calc(50% - 413px/2 + 0.5px);
+  top: 250px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  /* identical to box height, or 130% */
+  text-align: center;
+  color: #C0C0C0;
+}
+
+.photo {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 30px;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.item1 {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.item2 {
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+.item3 {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.item4 {
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+.block2 {
+  position: absolute;
+  height: 680px;
+  left: 0%;
+  right: 0%;
+  top: 2458px;
+}
+
+.t1 {
+  position: absolute;
+  height: 20px;
+  left: 6.67%;
+  right: 70.67%;
+  top: calc(50% - 20px/2 - 87px);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+
+.t2 {
+  position: absolute;
+  height: 32px;
+  left: 6.67%;
+  right: 42.83%;
+  top: calc(50% - 32px/2 - 55px);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  /* identical to box height, or 114% */
+  color: #FFFFFF;
+}
+
+.t3 {
+  position: absolute;
+  left: 6.67%;
+  right: 65%;
+  top: calc(50% - 80px/2 + 15px);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  color: #FFFFFF;
+}
+
+.button2 {
+  position: absolute;
+  height: 50px;
+  left: 6.67%;
+  right: 83%;
+  top: calc(50% - 42px/2 + 96px);
+  background: #FFFFFF;
+  border-radius: 14px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.t4 {
+  position: absolute;
+  height: 60px;
+  left: 75%;
+  right: 9%;
+  top: calc(50% - 60px/2 + 10px);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  color: #C0C0C0;
+}
+
+.block3 {
+  position: absolute;
+  height: 500px;
+  left: 0%;
+  right: 0%;
+  top: 3150px;
+}
+
+.zag3 {
+  position: absolute;
+  width: 229px;
+  height: 42px;
+  left: calc(50% - 229px/2 + 0.5px);
+  top: 20%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  /* identical to box height, or 105% */
+  text-align: center;
+  color: #000000;
+}
+
+.pzag3 {
+  position: absolute;
+  width: 441px;
+  height: 30px;
+  left: calc(50% - 441px/2 + 0.5px);
+  top: 31%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  text-align: center;
+  color: #C0C0C0;
+}
+
+.lg {
+  position: absolute;
+  top: 55%;
+  right: 16%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  place-items: center;
+  -webkit-column-gap: 120px;
+          column-gap: 120px;
+}
+
+.block4 {
+  position: absolute;
+  height: 300px;
+  left: 0%;
+  right: 0%;
+  top: 3650px;
+  background-color: black;
+}
+
+.ct {
+  position: absolute;
+  height: 140px;
+  left: 9.44%;
+  right: 9.44%;
+  top: 80px;
+}
+
+.ct1 {
+  position: absolute;
+  height: 140px;
+  left: 0%;
+  right: 60.79%;
+  top: 0px;
+}
+
+.pzag4 {
+  position: absolute;
+  height: 20px;
+  left: 0%;
+  right: 3.93%;
+  top: 51px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height, or 154% */
+  color: #C0C0C0;
+}
+
+.ic {
+  position: absolute;
+  top: 80%;
+  right: 82%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.ct2 {
+  position: absolute;
+  height: 140px;
+  left: 60.79%;
+  right: 20.29%;
+  top: 0px;
+}
+
+.zag4 {
+  position: absolute;
+  height: 20px;
+  left: 0%;
+  right: 35.29%;
+  top: 0px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+
+.pzag5 {
+  position: absolute;
+  top: 18%;
+  row-gap: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  color: #FFFFFF;
+}
+
+.ct3 {
+  position: absolute;
+  height: 140px;
+  left: 81.08%;
+  right: 0%;
+  top: 0px;
+}
+
+.zag5 {
+  position: absolute;
+  height: 20px;
+  left: 0%;
+  right: 74.21%;
+  top: 0px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+
+.pzag6 {
+  position: absolute;
+  top: 18%;
+  row-gap: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  color: #FFFFFF;
+}
